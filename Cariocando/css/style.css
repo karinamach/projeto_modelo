@@ -1,0 +1,27 @@
+body{
+    color:black;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 80%;
+    background-color: wheat;
+    margin-left: 10%;
+}
+
+.mainav{
+    background-color: olive;
+    color:darkblue;
+}
+
+.mainav li{
+    display: inline;
+    padding: 5%;
+}
+
+.mainav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}

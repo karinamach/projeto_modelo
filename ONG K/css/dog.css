@@ -1,0 +1,40 @@
+.logo{
+    float: left;
+    text-align: left;
+    background-color:slategray;
+    color: yellow;
+    width: 30%;
+    height: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .menu{
+    background-color: yellow;
+    color:dimgray;
+    width: 70%;
+    height: 30%;
+    float: right;
+    }
+    
+    .menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 6%;
+    }
+    
+    body{
+    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/14620_5D85A977592EEECD.jpg?w=1200);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    
+    .content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    h4{
+    margin-left: 5%;
+    }
+    
+    

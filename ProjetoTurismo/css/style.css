@@ -1,0 +1,85 @@
+
+.container{
+    background: #24150c;
+}
+
+.header {
+    position: relative;
+    
+}
+
+.header img{
+    width: 100%;
+}
+
+.centro{
+    position: absolute;
+    top:  -15%;
+    left: 20%;
+    transition: translate(-50%,-50%);  
+}
+
+.centro h1{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #24150c;
+    font-size: 10em; 
+    color: #b5ab83;
+}
+
+.mainav{
+    text-align: center;
+    background-color: #24150c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainav li{
+    display:inline;  
+    padding: 5%;
+    font-size: 1.6em;
+    color: #b5ab83;
+   -webkit-text-stroke-width: 1.1px; 
+   -webkit-text-stroke-color: #000;
+}
+
+.mainav a{
+    text-decoration: none;
+}
+
+.content{
+    background: #24150c;
+}
+
+.content h2{
+    color: #b5ab83;
+    text-align: center;
+}
+
+.galery {
+    width: 640px;
+    height: 360px;
+    overflow: hidden ;
+    float: left;
+    background: #24150c;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animaçao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img{
+    width: 19.9%
+}
+
+.texto p{
+    float: right;
+    text-align: left;
+    width: 30%;
+    text-indent: 16px;
+    color: #b5ab83;
+    background: #24150c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

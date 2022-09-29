@@ -1,0 +1,18 @@
+.mainleft h1{
+    text-align: center;
+
+}
+
+.menu img{
+    border-radius: 50%;
+    position: absolute; 
+    margin: 2px 0 0 4px;
+    padding: 4px;
+    background-color: black;
+    border: 1px solid black;   
+}
+
+.img p{
+    display: inline-block;
+    float: left;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<title>Document</title>
+</head>
+
+<body style="background-color: #F2C9CC; background: url('img/beauty01.png'); background-repeat: no-repeat; background-size: cover;">
+
+  <nav class="navbar col-11 m-auto navbar-expand-lg navbar-light bg-light navegar" style="z-index: 999;">
+    <a class="navbar-brand" href="index.html" style="color: #896F25; font-size:xx-large">MaryJay💚</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse col-11 m-auto" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="produtos.html">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <form method="get" action=".">
+    <div class="form-group col-5 m-auto">
+      <label for="formGroupExampleInput"><strong>Nome:</strong></label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome">
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label for="formGroupExampleInput2"><strong>E-mail:</strong></label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira seu email">
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label for="formGroupExampleInput2"><strong>Senha:</strong></label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira uma senha">
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label for="formGroupExampleInput2"><strong>Confirmação de senha:</strong></label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Confirme sua senha.">
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label for="formGroupExampleInput2"><strong>RG:</strong></label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insira o RG. ">
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label  name="cep" for="formGroupExampleInput2"><strong>CEP:</strong></label>
+      <input type="text" class="form-control" id="formGroupExampleInput2 cep" placeholder="Insira seu CEP." value="" onblur="pesquisacep(this.value);" >
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label for="formGroupExampleInput2"><strong>Rua:</strong></label>
+        <input name="rua" type="text" id="rua" class="form-control" id="formGroupExampleInput2"><br />
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label><strong>Bairro:</strong></label>
+        <input name="bairro" type="text" id="bairro" class="form-control" /><br />
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label><strong>Cidade:</strong></label>
+        <input name="cidade" type="text" id="cidade" class="form-control" /><br />
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label><strong>Estado:</strong></label>
+        <input name="uf" type="text" id="uf" class="form-control" /><br />
+    </div>
+    <div class="form-group col-5 m-auto ">
+      <label><strong>IBGE:</strong></label>
+        <input name="ibge" type="text" id="ibge" class="form-control" /><br />
+    </div>
+    <div class="form-group col-1 m-auto">
+    <button type="button" class="btn btn-success" id="btn"><strong>Cadastre-se</strong></button>
+    </div>
+  </form>
+  <p style=" text-align:center;"><strong>Já tem conta?</strong>
+  <a href="login.html">logue-se</a>
+</p>
+
+
+
+
+  
+
+  <br><br>
+
+  <footer style="background-color: #1E4015; color: #F2C9CC;">
+    <div class="text-center">
+      <p>MaryJay Since 2022 Transformando não Só a sua pele mas sua vida.</p>
+      <a href="#">Copyright Todos os direitos reservados.</a>
+    </div>
+  </footer>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>
+<script src="js/login.js"></script>
+<script src="js/cep.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

@@ -1,0 +1,50 @@
+{
+  "alunos": [
+    {
+      "nome": "Alessandro",
+      "ednereço": "Rua das Azaleas",
+      "bairro": "Vila Valqueire",
+      "cidade": "Amzonas",
+      "email": "alessandro.vieira@rj.senac.br",
+      "id_curso": 1,
+      "id": 1
+    },
+    {
+      "nome": "Karina",
+      "ednereço": "Via b10",
+      "bairro": "Santa Cruz",
+      "cidade": "Bahia",
+      "email": "karinamachado2298@gmail.com",
+      "id_curso": 2,
+      "id": 2
+    },
+    {
+      "nome": "Suely",
+      "ednereço": "Veridiana",
+      "bairro": "Conjunto",
+      "cidade": "Rio de janeiro",
+      "email": "Suelymach@gmail.com",
+      "id_curso": 3,
+      "id": 3
+    },
+    {
+      "nome": "Adreia",
+      "ednereço": "Conde",
+      "bairro": "Vila Kennedy",
+      "cidade": "Rio de janeiro",
+      "email": "Andreia.livramento@gmail.com",
+      "id_curso": 2,
+      "id": 4
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "técnico em Informática",
+      "id": 1
+    },
+    {
+      "nome": "Programadores Cariocas",
+      "id": 2
+    }
+  ]
+}

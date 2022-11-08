@@ -1,0 +1,31 @@
+{ 
+    "alunos":[
+        {
+            "nome": "Alessandro",
+            "ednereço": "Rua das Azaleas",
+            "bairro": "Vila Valqueire",
+            "cidade": "Amzonas",
+            "email": "alessandro.vieira@rj.senac.br",
+            "id":1
+        },
+   
+        {
+            "nome": "Karina",
+            "ednereço": "Via b10",
+            "bairro": "Santa Cruz",
+            "cidade": "Bahia",
+            "email": "karinamachado2298@gmail.com",
+            "id":2
+        },
+   
+        {
+            "nome": "Suely",
+            "ednereço": "Veridiana",
+            "bairro": "Conjunto",
+            "cidade": "Rio de janeiro",
+            "email": "Suelymach@gmail.com",
+            "id":3
+        }
+    ]
+}
+
